@@ -1,4 +1,4 @@
-<project name='standalone-tomcat-memcached' default='package'>
+<project name='standalone-tomcat8-memcached' default='package'>
 
 	<property environment='env'/>
 	<property name='grails.home' value='${env.GRAILS_HOME}' />

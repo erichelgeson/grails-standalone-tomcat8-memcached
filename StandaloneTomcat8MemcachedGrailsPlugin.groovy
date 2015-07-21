@@ -3,9 +3,9 @@ import de.javakaffee.web.msm.MemcachedBackupSessionManager
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
-class StandaloneTomcatMemcachedGrailsPlugin {
+class StandaloneTomcat8MemcachedGrailsPlugin {
 
-	private final Logger log = LoggerFactory.getLogger('grails.plugin.standalone.StandaloneTomcatMemcachedGrailsPlugin')
+	private final Logger log = LoggerFactory.getLogger('grails.plugin.standalone.StandaloneTomcat8MemcachedGrailsPlugin')
 
 	String version = '0.2'
 	String grailsVersion = '2.0 > *'
@@ -14,10 +14,10 @@ class StandaloneTomcatMemcachedGrailsPlugin {
 		'src/docs/**'
 	]
 
-	String title = 'Standalone Tomcat Memcached Plugin'
+	String title = 'Standalone Tomcat8 Memcached Plugin'
 	String author = 'Burt Beckwith'
 	String authorEmail = 'burt@burtbeckwith.com'
-	String description = 'Uses Memcached as the Tomcat session manager when using the Tomcat server'
+	String description = 'Uses Memcached as the Tomcat8 session manager when using the Tomcat8 server'
 	String documentation = 'http://grails.org/plugin/standalone-tomcat-memcached'
 
 	String license = 'APACHE'
